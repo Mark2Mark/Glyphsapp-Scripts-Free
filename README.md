@@ -4,7 +4,7 @@
 
 ### :point_right: Glyphsapp Scripts
 
-Some scripts for Glyphsapp. I’ll add more as soon as they are approved to work in a generic setup. The code might be not the tidies since I rather focus on having them working. Feel free to pul requests for improvements or descendants.
+Some scripts for Glyphsapp. **Note:** Those are *incredibly old and mostly useless* by now, since there are way more sophisticated scripts and plugins out there by now, or their functions are already implemented into GlyphsApp per se. Anyway, feel free to pul requests for improvements or descendants.
 
 ### :point_right: [Glyphsapp Plugins](https://github.com/Mark2Mark/Glyphsapp-Plugins)
 
