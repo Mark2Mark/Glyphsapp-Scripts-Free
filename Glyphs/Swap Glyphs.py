@@ -27,7 +27,7 @@ listOfGlyphNames = [ x.parent.name for x in Selection ]
 if len(listOfGlyphNames) == 2:
     Selection[1].parent.name = "Temp"
 
-    print listOfGlyphNames
+    print (listOfGlyphNames)
     Selection[0].parent.name = listOfGlyphNames[1]
     Selection[1].parent.name = listOfGlyphNames[0]
 else:
