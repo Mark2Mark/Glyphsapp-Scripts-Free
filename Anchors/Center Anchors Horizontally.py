@@ -41,4 +41,4 @@ for l in selection:
 	thisMasterAngle = l.glyphMetrics()[5]
 	thisMasterXHeight = l.glyphMetrics()[4]
 	for anchor in l.anchors:
-	 	anchor.x = charWidth / 2 + angle(thisMasterAngle, thisMasterXHeight, anchor.y)
+		anchor.x = charWidth / 2 + angle(thisMasterAngle, thisMasterXHeight, anchor.y)

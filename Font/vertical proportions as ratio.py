@@ -84,9 +84,9 @@ class dialog(object):
 		difference = total - upm
 		roundedA = a - difference
 
-		print "ascender:", roundedA, "above the xHeight"
-		print "xHeight:", b
-		print "descender:", -c
+		print("ascender:", roundedA, "above the xHeight")
+		print("xHeight:", b)
+		print("descender:", -c)
 
 		for master in masters:
 			master.ascender = roundedA + b

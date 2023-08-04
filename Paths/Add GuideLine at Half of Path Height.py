@@ -35,11 +35,11 @@ try:
 		# print guidePositionY
 
 		guideLine = GSGuideLine()
-		print guideLine
+		print(guideLine)
 		guideLine.x = 50
 		guideLine.y = guidePositionY
 		guideLine.angle = 0
-		selLayer.guideLines.append( guideLine )
+		selLayer.guideLines.append(guideLine)
 
 except:
 	print traceback.format_exc()

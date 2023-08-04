@@ -42,12 +42,11 @@ class OpenTab(object):
 		self.w.open()
 
 	def editTextCallback(self, sender):
-		print "text entry:", sender.get()
+		print("text entry:", sender.get())
 		
 	def buttonCallback(self, sender):
-		#print "yes"
 		characters = self.w.editText.get()
-		print characters
+		print(characters)
 		Glyphs.currentDocument.windowController().addTabWithString_( characters )
 		self.w.close()
 		

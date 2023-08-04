@@ -1,23 +1,23 @@
-#MenuTitle: Report Missing Anchors
+# MenuTitle: Report Missing Anchors
 # -*- coding: utf-8 -*-
 __doc__ = """
 • Report all glyphs that have no anchors at all.
 • Selected Master
 """
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #
-#	>> Mark Froemberg << aka `Mark2Mark` @ GitHub
-#	>> www.markfromberg.com <<
+# 	>> Mark Froemberg << aka `Mark2Mark` @ GitHub
+# 	>> www.markfromberg.com <<
 #
-#	_NOTES:
-#		- 
+# 	_NOTES:
+# 		-
 #
-#	_TODO:
-#		- 
+# 	_TODO:
+# 		-
 #
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Glyphs.clearLog()
 Glyphs.showMacroWindow()
@@ -29,9 +29,9 @@ thisMaster = Font.selectedFontMaster
 allGlyphsToReport = []
 
 for layer in selection:
-	glyphName = layer.parent.name
-	anchors = layer.anchors
-	if len(anchors) == 0:
-		allGlyphsToReport.append(glyphName)
+    glyphName = layer.parent.name
+    anchors = layer.anchors
+    if len(anchors) == 0:
+        allGlyphsToReport.append(glyphName)
 
-print "\n".join(allGlyphsToReport)
+print("\n".join(allGlyphsToReport))

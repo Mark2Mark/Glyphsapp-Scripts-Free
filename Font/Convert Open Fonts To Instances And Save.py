@@ -41,7 +41,7 @@ try:
 				newFont.masters[0].weight = transferedWeightName ## New font will have one master anyway
 		thisFont.close(True) # parameter: ignoreChanges True/False
 except:
-	print traceback.format_exc()
+	print(traceback.format_exc())
 
 
 filePath = '~/Desktop/TEMP_FONT_INSTANCES'
@@ -53,6 +53,6 @@ for newInstance in Glyphs.fonts:
 	thisName = "%s - %s" % ( newInstance.familyName, newInstance.masters[0].name )
 	thisPath = "%s/%s.glyphs" % (filePathRelative, thisName)
 	print thisPath
- 	newInstance.save(thisPath)
- 	newInstance.close(True)
+	newInstance.save(thisPath)
+	newInstance.close(True)
 
