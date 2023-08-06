@@ -56,7 +56,7 @@ class Window(object):
         self.w.center()
         self.w.open()
         self.w.setDefaultButton(self.w.make_button)
-        self.w.makeKey()  ### Focus on Window and Button
+        self.w.makeKey()
 
     def setColor(self, sender):
         try:

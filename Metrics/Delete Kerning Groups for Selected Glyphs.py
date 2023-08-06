@@ -1,4 +1,4 @@
-#MenuTitle: Delete Kerning Groups for Selected Glyphs
+# MenuTitle: Delete Kerning Groups for Selected Glyphs
 # -*- coding: utf-8 -*-
 __doc__ = """
 • Delete all Kerning Groups for the selected Glyphs
